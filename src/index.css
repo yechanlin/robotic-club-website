@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  color: #252525;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%; /* Make sure the nav spans the full width */
+  padding: 0; /* Remove any default padding */
+  margin-top: 1.5rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px; /* Adds space between items */
+  padding-left: 0;
+  list-style: none;
+}
+.nav-items li {
+  margin-right: 20px; /* Add spacing between items */
+  font-size: 18px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.nav-items li a:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+  color: #0073e6; /* Change text color on hover */
+}
